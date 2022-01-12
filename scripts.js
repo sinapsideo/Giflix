@@ -7,13 +7,13 @@ btn.addEventListener('click', function() {
 
 if (count === '0') {
   btn.style.background = 'green';
-  i.className = 'fa-thin fa-toggle-on';
+  i.className = 'fas fa-toggle-on';
   count = '1';
   getApi(input);
 
 }else {
   btn.style.background = 'rgba(200,0,0,0.7)';
-  i.className = 'fa-thin fa-toggle-off';
+  i.className = 'fas fa-toggle-off';
   count = '0';
 }
 });
