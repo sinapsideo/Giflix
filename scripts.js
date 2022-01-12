@@ -19,13 +19,15 @@ if (count === '0') {
 });
 
 document.querySelector('input').addEventListener('keyup', function(e) {
+  var input = document.querySelector('input').value;
+
   if (e.which === 13) {
     btn.style.background = 'green';
     i.className = 'fa-thin fa-toggle-on';
     count = '1';
     getApi(input);
   }
-})
+});
 
 /*PEGANDO OS GIFS DA API*/
 
