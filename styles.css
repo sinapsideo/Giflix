@@ -68,9 +68,10 @@ main section .container .form button {
   font-style: normal;
   animation: pulse 1500ms infinite;
   cursor: pointer;
+  opacity: 90%;
 }
 main section .container .form button:hover {
-  opacity: 90%;
+  opacity: 190%;
 
 }
 @keyframes pulse {
