@@ -1,0 +1,130 @@
+html, body {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('Images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+main {
+  z-index: 1000;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main header h1{
+  position: absolute;
+  left: 50px;
+  top: 35px;
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+  color: red;
+}
+main section {
+  background: rgba(45, 45, 45, 0.8);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(95, 95, 95, 0.3);
+  width: 300px;
+  height: 500px;
+  padding: 50px;
+  color: #fff;
+  border-radius: 5px;
+}
+main .container {
+  display: flex;
+  flex-direction: column;
+}
+main section .container .texto {
+  margin-top: 60px;
+  height: 150px;
+}
+main section .container .form {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section .container .form input {
+  height: 30px;
+  width: 300px;
+  font-size: 1rem;
+}
+main section .container .form button {
+  margin-top: 50px;
+  width: 70px;
+  height: 70px;
+  font-size: 2rem;
+  border-radius: 50%;
+  background: #ff39a4;
+  color: white;
+  font-style: normal;
+  animation: pulse 1500ms infinite;
+  cursor: pointer;
+}
+main section .container .form button:hover {
+  opacity: 90%;
+
+}
+@keyframes pulse {
+  0% {box-shadow: #ff69b4 0 0 0 0;}
+  75% {box-shadow: #ff69b400 0 0 0 16px;}
+}
+
+main section .container .gif {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+main section .container .gif img {
+  position: absolute;
+  height: 150px;
+  right: -130PX;
+  bottom: -100px;
+}
+.pato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 550px;
+  padding: 50px;
+  background: rgba(45, 45, 45, 0.8);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(95, 95, 95, 0.3);
+  border-radius: 10px;
+}
+.pato img{
+  height: 300px;
+}
+
+footer {
+  height: 10px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  font-family: 'Poppins', sans-serif;
+  z-index: 1000;
+}
+cite {
+  font-style: normal;
+  font-weight: 300;
+  color: #fff;
+
+}
+
+cite a {
+  text-decoration: none;
+  color: #faa;
+}
